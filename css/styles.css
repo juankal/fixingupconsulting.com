@@ -1424,7 +1424,7 @@ button {
 }
 
 .footer-bottom p a {
-  color: var(--c-cyan);
+  color: #24d064;
   text-decoration: none;
   transition: color var(--t-normal);
 }
