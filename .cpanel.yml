@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mar31fid/public_html/
-    - /bin/rsync -av --exclude='.git' --exclude='.cpanel.yml' * $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
