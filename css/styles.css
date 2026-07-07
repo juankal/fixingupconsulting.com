@@ -295,6 +295,18 @@ button {
   flex-shrink: 0;
 }
 
+.logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
+}
+
+.logo-img-icon {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
 .logo-icon {
   flex-shrink: 0;
 }
