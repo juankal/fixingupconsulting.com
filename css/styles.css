@@ -1340,6 +1340,16 @@ button {
   margin-bottom: var(--space-md);
 }
 
+.footer-ruc {
+  margin-top: -0.5rem;
+  margin-bottom: var(--space-md);
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: rgba(255,255,255,0.6) !important;
+}
+
 .footer-social {
   display: flex;
   gap: 8px;
