@@ -7,38 +7,38 @@
 /* ===== CSS CUSTOM PROPERTIES ===== */
 :root {
   /* Brand Colors */
-  --c-navy: #0a2540;
-  --c-navy-light: #0f3460;
-  --c-navy-mid: #1a5fa8;
-  --c-blue: #0066cc;
-  --c-cyan: #00d4ff;
-  --c-cyan-glow: rgba(0, 212, 255, 0.15);
-  --c-purple: #7c3aed;
-  --c-amber: #f59e0b;
-  --c-emerald: #10b981;
+  --c-navy: #0e372b;
+  --c-navy-light: #164e3f;
+  --c-navy-mid: #256b57;
+  --c-blue: #a38244;
+  --c-cyan: #d4af37;
+  --c-cyan-glow: rgba(212, 175, 55, 0.15);
+  --c-purple: #8b6b32;
+  --c-amber: #d4af37;
+  --c-emerald: #137a5b;
 
   /* Neutrals */
   --c-white: #ffffff;
   --c-white-soft: rgba(255,255,255,0.9);
-  --c-text: #1e293b;
-  --c-text-muted: #64748b;
-  --c-text-light: #94a3b8;
-  --c-bg: #f8fafc;
+  --c-text: #1b2421;
+  --c-text-muted: #4e5d57;
+  --c-text-light: #7c8e87;
+  --c-bg: #faf9f5;
   --c-bg-card: #ffffff;
-  --c-border: rgba(15, 52, 96, 0.1);
+  --c-border: rgba(14, 55, 43, 0.1);
 
   /* Gradients */
   --g-brand: linear-gradient(135deg, var(--c-navy) 0%, var(--c-navy-mid) 100%);
-  --g-hero: linear-gradient(135deg, #020c1b 0%, #0a2540 40%, #0f3460 100%);
+  --g-hero: linear-gradient(135deg, #051a14 0%, #0e372b 40%, #164e3f 100%);
   --g-accent: linear-gradient(90deg, var(--c-cyan) 0%, var(--c-blue) 100%);
-  --g-card: linear-gradient(145deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.6) 100%);
+  --g-card: linear-gradient(145deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-md: 0 4px 20px rgba(10, 37, 64, 0.08);
-  --shadow-lg: 0 10px 40px rgba(10, 37, 64, 0.12);
-  --shadow-xl: 0 20px 60px rgba(10, 37, 64, 0.16);
-  --shadow-glow: 0 0 40px rgba(0, 212, 255, 0.12);
+  --shadow-sm: 0 1px 3px rgba(14, 55, 43, 0.04), 0 1px 2px rgba(14, 55, 43, 0.02);
+  --shadow-md: 0 4px 20px rgba(14, 55, 43, 0.06);
+  --shadow-lg: 0 10px 40px rgba(14, 55, 43, 0.08);
+  --shadow-xl: 0 20px 60px rgba(14, 55, 43, 0.12);
+  --shadow-glow: 0 0 40px rgba(212, 175, 55, 0.12);
 
   /* Spacing */
   --space-xs: 0.5rem;
@@ -50,10 +50,10 @@
   --space-3xl: 6rem;
 
   /* Border Radius */
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
   --radius-pill: 100px;
 
   /* Transitions */
@@ -63,7 +63,7 @@
 
   /* Typography */
   --font-body: 'Inter', system-ui, sans-serif;
-  --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
+  --font-display: 'Playfair Display', 'Outfit', Georgia, serif;
 }
 
 /* ===== RESET & BASE ===== */
@@ -410,13 +410,20 @@ button {
 .hero-gradient {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse 80% 60% at 60% 40%, rgba(26, 95, 168, 0.3) 0%, transparent 70%),
-              radial-gradient(ellipse 50% 40% at 20% 80%, rgba(0, 212, 255, 0.08) 0%, transparent 60%);
+  background: radial-gradient(ellipse 80% 60% at 60% 40%, rgba(37, 107, 87, 0.4) 0%, transparent 70%),
+              radial-gradient(ellipse 50% 40% at 20% 80%, rgba(212, 175, 55, 0.12) 0%, transparent 60%);
 }
 
 .hero-particles {
   position: absolute;
   inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 45px 45px;
+  background-position: center;
+  mask-image: radial-gradient(circle at center, black 30%, transparent 80%);
+  -webkit-mask-image: radial-gradient(circle at center, black 30%, transparent 80%);
+  opacity: 0.7;
 }
 
 .hero-content {

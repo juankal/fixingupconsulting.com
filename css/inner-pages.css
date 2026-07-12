@@ -14,7 +14,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(26, 95, 168, 0.28) 0%, transparent 70%);
+  background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(37, 107, 87, 0.28) 0%, transparent 70%);
 }
 
 .inner-hero .container { position: relative; z-index: 2; }
