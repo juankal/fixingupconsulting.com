@@ -45,3 +45,13 @@ All JS is wrapped in a single `DOMContentLoaded` listener per file; there are no
 - Content is in Spanish; keep new copy consistent with that.
 - Assets (images) live under `assets/img/`.
 - `docs/` holds internal/operational documentation (deploy setup, upgrade logs) and is explicitly excluded from the FTP deploy — anything added there stays off the live site by design. Follow that pattern for future internal notes rather than adding them to the deployed page files.
+
+## Wiki de memoria (segundo cerebro)
+
+**Antes de cualquier tarea, revisá el wiki**: la página de este proyecto es
+`C:\Repositorios\Jc Master\wiki\proyectos\fixingupconsulting.com.md` (`wiki\index.md` lista el resto). No
+empieces desde cero en algo ya documentado; al cerrar una sesión de trabajo importante,
+actualizá esa página.
+
+Reglas completas (qué se puede escribir y qué no, formato de `log.md`): `~\.claude\CLAUDE.md`.
+Si esas rutas no existen (otra máquina, CI), ignorá esta sección.
