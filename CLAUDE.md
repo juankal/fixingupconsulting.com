@@ -48,10 +48,12 @@ All JS is wrapped in a single `DOMContentLoaded` listener per file; there are no
 
 ## Wiki de memoria (segundo cerebro)
 
-**Antes de cualquier tarea, revisá el wiki**: la página de este proyecto es
+**Antes de cualquier tarea, revisa la wiki**: la página de este proyecto es
 `C:\Repositorios\Jc Master\wiki\proyectos\fixingupconsulting.com.md` (`wiki\index.md` lista el resto). No
-empieces desde cero en algo ya documentado; al cerrar una sesión de trabajo importante,
-actualizá esa página.
+empieces desde cero en algo ya documentado.
 
-Reglas completas (qué se puede escribir y qué no, formato de `log.md`): `~\.claude\CLAUDE.md`.
-Si esas rutas no existen (otra máquina, CI), ignorá esta sección.
+Al cerrar una sesión de trabajo importante, actualiza esa página y agrega una entrada **arriba de
+todo** en `wiki\log.md` (nunca al final). Reglas completas en la sección "Sesiones desde repos de
+proyecto" de `C:\Repositorios\Jc Master\CLAUDE.md`: solo esa página y el log, tipo `update`,
+`Estado actual` y `Pendientes abiertos` reescritos arriba y el detalle fechado en `Historial`.
+Si esas rutas no existen (otra máquina, CI), ignora esta sección.
