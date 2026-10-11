@@ -52,8 +52,6 @@ All JS is wrapped in a single `DOMContentLoaded` listener per file; there are no
 `C:\Repositorios\Jc Master\wiki\proyectos\fixingupconsulting.com.md` (`wiki\index.md` lista el resto). No
 empieces desde cero en algo ya documentado.
 
-Al cerrar una sesión de trabajo importante, actualiza esa página y agrega una entrada **arriba de
-todo** en `wiki\log.md` (nunca al final). Reglas completas en la sección "Sesiones desde repos de
-proyecto" de `C:\Repositorios\Jc Master\CLAUDE.md`: solo esa página y el log, tipo `update`,
-`Estado actual` y `Pendientes abiertos` reescritos arriba y el detalle fechado en `Historial`.
-Si esas rutas no existen (otra máquina, CI), ignora esta sección.
+Al cerrar una sesión de trabajo importante, registra la página del proyecto y `wiki\log.md` según
+la skill `C:\Repositorios\Jc Master\.claude\skills\wiki-update\SKILL.md`. Si el vault no está
+disponible (otra máquina o CI), omite el registro.
