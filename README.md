@@ -9,6 +9,13 @@ Sitio web oficial de **Fixing Up Consulting**, empresa de consultoría integral 
 
 ---
 
+## Consultar por tarea
+
+- **Arquitectura y convenciones:** [instrucciones del repositorio](AGENTS.md).
+- **Publicación y hosting:** [despliegue por GitHub Actions/FTP](docs/DEPLOYMENT.md), antes de modificar el workflow o sus secretos.
+- **OMP, sistema separado de esta web:** [antecedente de actualización](docs/omp-upgrade-2026-08-11.md).
+- **Humanos con Potencial:** [expediente de Depósito Legal](docs/deposito-legal-humanos-con-potencial.md); para el estado comercial y los trámites vigentes consulta la ficha del proyecto en la wiki.
+
 ## 📋 Páginas del Sitio
 
 | Página | Descripción |
